@@ -1,5 +1,6 @@
-import _ from 'lodash'
+import add1 from './a'
+import by2  from './b'
 
-console.log('lifegameの始まりだ')
-console.log('hじま')
-console.log(_)
+export default function(x) {
+  return add1(x) - by2(x)
+}
